@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "jTranslate",
+    "path": "extensions/jTranslate/jTranslate.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

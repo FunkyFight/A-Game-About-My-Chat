@@ -1,0 +1,48 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 799,345
+__PrivCrochet_tags: title:Root
+title:Root
+---
+Victoire: Euh... quelqu'un est évanoui ici !
+<<wait>>
+<<continueSequence "sq_1_1">>
+Victoire: Réveillez-vous !
+Victoire vous secoue pour vous réveiller mais en vain.
+Victoire: Mmmhm... gnn RÉVEILLEZ-VOUS
+Victoire continue de vous secouer, vous finissez par vous réveiller.
+$PLAYER: Où- où suis-je ? Qui êtes-vous ?
+Victoire: Pardon ? Vous venez dans un tel endroit [shake]sans savoir où vous êtes ?[/shake]
+Victoire: Vous rigolez j'espère ?!
+
+-> "Je ne suis pas de ce monde"
+    Victoire: Ouh là, vous avez pris un coup sur la tête il semblerait !
+-> "Je ne devrais pas être ici"
+    Victoire: C'est sûr, c'est genre super dangereux ici.
+    $PLAYER: Non ce n'est pas ce que je voulais dire.
+
+$PLAYER: Je ne suis vraiment pas d'ici. Une voix m'a parlé et veut me-
+Victoire: D'aaaaaaacord, on va aller au campement, [wave]tranquillement d'accord ?[/wave]
+$PLAYER: Vous me prenez pour un fou, n'est-ce pas ?
+Victoire: oui
+$PLAYER: Et pourtant c'est la vérité ! Je ne suis pas un [shake]CARRÉ VERT[/shake].
+$PLAYER: [shake]LES GENS NE SONT PAS DES CARRÉS[/shake]
+Victoire: Ouh là ! Calme toi !
+Victoire: Qu'est-ce que tu me racontes ? Je ne suis pas un carré...
+Victoire: ...et tu n'en es pas un !
+$PLAYER: Pourquoi est-ce que tout ce que je vois est carré alors ?
+Victoire: Avez-vous consommé des stupéfiants ?
+$PLAYER: Avant d'apparaître ici, une voix m'a parlé.
+Victoire: Je prend ça pour un oui
+$PLAYER: Elle voulait tester ma communauté
+Victoire: Il est dans son délire en plus...
+$PLAYER: Je ne les entends plus. Je ne les sens plus.
+Victoire: [shake]ALLONS AU CAMP ![/shake] Vous irez mieux là-bas !
+Victoire: Avec un peu de repos, les gens ne seront plus carrés
+Victoire: et vous entendrez de nouveau votre... [wave]communauté~ ?[/wave]
+
+-> "D'accord, je vous suis."
+    Victoire: C'est par là !
+-> "Vous ne me croyez toujours pas ? Pff bon je vous suis."
+    Victoire: MERCI T_T. C'est par ici !
+===
