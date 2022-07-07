@@ -1,0 +1,1 @@
+seq = layer_sequence_create("Assets_1", window_get_width()/2, window_get_height()/2, sq_1_1)
